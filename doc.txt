@@ -1,0 +1,12 @@
+ composer instalation +  composer init
+ php composer.phar require symfony/var-dumper
+ ---------
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+    /*le namespace App se situe dans src*/
+----------
+php composer.phar dump-autoload
