@@ -17,7 +17,9 @@ php composer.phar init
 php composer.phar require symfony/var-dumper
 
 /////
+
 /* add in composer.json */
+
 
     ,"autoload": {
         "psr-4": {
@@ -26,6 +28,7 @@ php composer.phar require symfony/var-dumper
     }
     
 /////
+
 php composer.phar dump-autoload
     
     
